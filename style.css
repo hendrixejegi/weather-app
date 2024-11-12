@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #f0f0f0;
+}
+
+.weather-app {
+  width: 300px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 15px;
+}
+
+header input,
+header button {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.weather-info h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.additional-info p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.city-options {
+  list-style-type: none;
+  padding: 0;
+}
+
+.city-options li {
+  margin-bottom: 0.5rem;
+}
+
+.city-options button {
+  width: 80%;
+  padding: 10px;
+}
